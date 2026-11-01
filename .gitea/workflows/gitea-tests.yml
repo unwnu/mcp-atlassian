@@ -11,7 +11,7 @@ on:
 jobs:
   test:
     name: Run pytest on Python ${{ matrix.python-version }}
-    runs-on: ubuntu-latest
+    runs-on: mcp-ubuntu
     strategy:
       fail-fast: false
       matrix:

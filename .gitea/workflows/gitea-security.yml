@@ -10,7 +10,7 @@ on:
 jobs:
   trufflehog:
     name: Secret Scanning
-    runs-on: ubuntu-latest
+    runs-on: mcp-ubuntu
     permissions:
       contents: read
     steps:
